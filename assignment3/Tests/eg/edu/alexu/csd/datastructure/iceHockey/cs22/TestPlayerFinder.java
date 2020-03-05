@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import java.awt.Point;
 
-public class GivenTestCases {
+public class TestPlayerFinder {
 	PlayerFinder f = new PlayerFinder();
 	Point[] points;
 	Point[] expected;
