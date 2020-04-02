@@ -4341,8 +4341,13 @@ module.exports = require('./_descriptors') ? function(object, key, value){
 },{"./_descriptors":42,"./_object-dp":52,"./_property-desc":53}],48:[function(require,module,exports){
 module.exports = require('./_global').document && document.documentElement;
 },{"./_global":46}],49:[function(require,module,exports){
+<<<<<<< HEAD
 module.exports = !require('./_descriptors') && !require('./_fails')(function(){
   return Object.defineProperty(require('./_dom-create')('div'), 'a', {get: function(){ return 7; }}).a != 7;
+=======
+module.exports = !require('./_descriptors') && !require('./_fails')(function(){
+  return Object.defineProperty(require('./_dom-create')('div'), 'a', {get: function(){ return 7; }}).a != 7;
+>>>>>>> d7a4750f329a2af912a30500c137e49590a0efd2
 });
 },{"./_descriptors":42,"./_dom-create":43,"./_fails":45}],50:[function(require,module,exports){
 // fast apply, http://jsperf.lnkit.com/fast-apply/5
