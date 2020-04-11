@@ -67,16 +67,6 @@ class TestQueue {
 		assertTrue(q.isEmpty());
 		assertThrows(QueueUnderflowException.class, () -> q.dequeue());
 	}
-
-	/*@Test
-	void testArray2b() {
-		q = new Queue2b(3);
-		for(int i = 0; i < 2; i++)
-			combined();
-		q = new Queue2b(1);
-		testCap1();
-	}
-	*/
 	void testCap1() {
 		
 		q.enqueue("1");
