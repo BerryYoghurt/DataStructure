@@ -12,6 +12,8 @@ class TestQueue {
 		q = new AQueue(3);
 		for(int i = 0; i < 2; i++)
 			combined();
+		q = new AQueue(1);
+		testCap1()
 	
 	}
 	
@@ -74,7 +76,7 @@ class TestQueue {
 		q = new Queue2b(1);
 		testCap1();
 	}
-	*ظ
+	*/
 	void testCap1() {
 		
 		q.enqueue("1");
