@@ -74,7 +74,7 @@ class TestQueue {
 		q = new Queue2b(1);
 		testCap1();
 	}
-	
+	*ظ
 	void testCap1() {
 		
 		q.enqueue("1");
@@ -83,5 +83,5 @@ class TestQueue {
 			assertThrows(QueueOverflowException.class, ()->q.enqueue("d"));
 		q.dequeue();
 		assertTrue(q.isEmpty());
-	}*/
+	}
 }
